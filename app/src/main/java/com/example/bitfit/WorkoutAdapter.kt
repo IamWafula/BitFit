@@ -34,7 +34,7 @@ class WorkoutAdapter(private val workouts: MutableList<Workout>) : RecyclerView.
         var workout = workouts[position]
         holder.mDate.text = workout.date
         holder.mTime.text = workout.time
-        holder.mDuration.text = workout.duration
+        holder.mDuration.text = workout.duration + "s"
     }
 
 

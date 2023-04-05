@@ -16,4 +16,7 @@ interface WorkoutDao {
     @Query("DELETE FROM workout_table")
     fun deleteAll()
 
+    @Insert(entity = WorkoutEntity::class)
+    fun insertWorkout(workoutEntity: WorkoutEntity)
+
 }
