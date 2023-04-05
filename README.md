@@ -1,8 +1,8 @@
-# Android Project 5 - *BitFit*
+# Android Project 6 - *Bit Fit 2*
 
-Submitted by: **Ian Wafula**
+Submitted by: **Ian Wafulae**
 
-**BitFit** is a health metrics app that allows users to track exercise time
+**BitFit2** is a health metrics app that allows users to track exercise times.
 
 Time spent: **3** hours spent in total
 
@@ -10,18 +10,14 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [✓] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `exercise times`
-- [✓] **There is a "create entry" UI that prompts users to make their daily entry**
-- [✓] **New entries are saved in a database and then updated in the RecyclerView**
-- [✓] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [✓] **Use at least 2 Fragments**
+- [✓] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [✓] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [✓] **Create a UI for tracking averages and trends in metrics**
-- [ ] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 The following **additional** features are implemented:
 
@@ -31,14 +27,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='bitfit.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Bitfit2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with Mac OS Native Tools  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+GIF created with Mac Native tools
+
 
 ## Notes
 
